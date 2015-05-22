@@ -1,0 +1,33 @@
+{
+  "name": "slow-equals",
+  "version": "1.0.0",
+  "description": "Javascript implementation of slow-equals function used to avoid timing attacks on password hash comparison.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha",
+    "benchmark": "node benchmark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommmas/slow-equals.git"
+  },
+  "keywords": [
+    "slow",
+    "equals",
+    "encryption"
+  ],
+  "author": "tommmas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommmas/slow-equals/issues"
+  },
+  "homepage": "https://github.com/tommmas/slow-equals",
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "chai": "^2.3.0",
+    "istanbul": "^0.3.14",
+    "microtime": "^1.4.2",
+    "mocha": "^2.2.5"
+  }
+}
