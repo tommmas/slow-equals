@@ -2,7 +2,7 @@
 
   [![License][license-img]][license-url]
   [![Build status][travis-img]][travis-url]
-  [![Coverage Status[coverage-img]][coverage-url]
+  [![Coverage Status][coverage-img]][coverage-url]
   [![Dependencies][david-img]][david-url]
 
 A Javascript implementation of the slowEquals function discussed [here](https://crackstation.net/hashing-security.htm#slowequals).
